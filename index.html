@@ -13,25 +13,25 @@
         <input type="text" id="display" value="">
 
         <div >
-            <input type="button" id="my-button" value="7" onclick=update(this.value)>
-            <input type="button" id="my-button" value="8" onclick=update(this.value)>
-            <input type="button" id="my-button" value="9" onclick=update(this.value)>
-            <input type="button" id="my-button" value="/" onclick='operator (this.value)'>
+            <input type="button" id="my-button" value="7" onclick=getNumber(this.value)>
+            <input type="button" id="my-button" value="8" onclick=getNumber(this.value)>
+            <input type="button" id="my-button" value="9" onclick=getNumber(this.value)>
+            <input type="button" id="my-button" value="/" onclick='getOperator (this.value)'>
 
-            <input type="button"id="my-button" value="4" onclick= update(this.value)>
-            <input type="button" id="my-button"value="6" onclick= update(this.value)>
-            <input type="button"id="my-button" value="+" onclick='operator (this.value)' >
+            <input type="button"id="my-button" value="4" onclick= getNumber(this.value)>
+            <input type="button" id="my-button"value="6" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="+" onclick= 'getOperator (this.value)' >
 
-            <input type="button"id="my-button" value="1" onclick= update(this.value)>
-            <input type="button"id="my-button" value="2" onclick= update(this.value)>
-            <input type="button"id="my-button" value="3" onclick= update(this.value)>
-            <input type="button"id="my-button" value="-" onclick= 'operator (this.value)'>
+            <input type="button"id="my-button" value="1" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="2" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="3" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="-" onclick= 'getOperator (this.value)'>
 
-            <input type="button"id="my-button" value="5" onclick= update(this.value)>
-            <input type="button"id="my-button" value="0" onclick= update(this.value)>
-            <input type="button"id="my-button" value="." onclick= 'operator (this.value)'>
-            <input type="button"id="my-button" value="=" onclick= 'calculate()'>
-            <input type="button" id="my-button"value="C" onclick= "display.value = ''">
+            <input type="button"id="my-button" value="5" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="0" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="." onclick= 'getOperator (this.value)'>
+            <input type="button"id="my-button" value="=" onclick= 'calculateDisplay()' > 
+            <input type="button" id="my-button"value="C" onclick= "clearDisplay()">
         </div>
     </div>
 
