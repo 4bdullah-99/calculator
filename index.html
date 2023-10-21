@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+
+    <link href="index.css" rel="stylesheet" type="text/css"> 
+</head>
+
+<body>
+
+    <div class="calculator">
+        <input type="text" id="display" value="">
+
+        <div class="interactive" >
+            <input type="button" id="my-button" value="/" onclick=getOperator(this.value)>
+            <input type="button" id="my-button" value="*" onclick=getOperator(this.value)>
+            <input type="button" id="my-button" value="+" onclick=getOperator(this.value)>
+            <input type="button" id="my-button" value="7" onclick='getNumber (this.value)'>
+
+            <input type="button"id="my-button" value="8" onclick= getNumber(this.value)>
+            <input type="button" id="my-button"value="9" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="4" onclick= 'getNumber (this.value)' >
+
+            <input type="button"id="my-button" value="5" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="6" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="1" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="2" onclick= 'getOperator (this.value)'>
+
+            <input type="button"id="my-button" value="3" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="0" onclick= getNumber(this.value)>
+            <input type="button"id="my-button" value="-" onclick= 'getOperator (this.value)'>
+            <input type="button"id="my-button" value="C" onclick= 'clearDisplay()' > 
+            <input type="button" id="my-button"value="=" onclick= "calculateDisplay()">
+        </div>
+    </div>
+
+    <script src="index.js">
+        
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+.calculator {
+        background-color: rgb(15, 26, 50);
+       display: grid;
+       grid-template-columns: auto;
+      justify-content: center;
+
+              
+       
+}
+.interactive {
+    display: grid;
+        grid-template-columns: auto  auto auto ;
+}
+#my-button {
+    color: rgb(41, 100, 100);
+    background-color: black;
+    width: auto ; 
+    height: 50px;
+    font-size: larger;
+    
+
+ }
+ 
+ #my-button:hover{
+    background-color: rgb(41, 100, 100);
+    color: black;
+ }
+#display {
+    background-color: rgb(181, 206, 206);
+    height: 100px ;
+    font-size: x-large;
+}
+body{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(18, 2, 21);
+   margin-top: 250px;
+   overflow: hidden;
+  
+}
